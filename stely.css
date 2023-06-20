@@ -1,67 +1,75 @@
-
-*{
-margin: 0%;
-padding: 0%;
-box-sizing: border-box;
-font-family: 'Press Start 2P', cursive;
-}
-
-header{ 
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Press Start 2P", cursive;
+  }
+  
+  header {
     background-color: #ff0000;
     height: 123.31px;
-}
-ul{
-   text-align: center;
-   word-spacing: 80px;
-   font-weight: bold;
-   font-size: 25px;
-}
-li{
+  }
+  ul {
+    text-align: center;
+    word-spacing: 80px;
+    font-weight: bold;
+    font-size: 25px;
+  }
+  li {
     display: inline-block;
     padding: 60px;
-   
-}
-li:hover{
-    color:#f7ff00;
+  }
+  li:hover {
+    color: #f7ff00;
     cursor: pointer;
-}
-main{
-    background-image: url(https://c4.wallpaperflare.com/wallpaper/703/881/310/nintendo-retro-games-super-mario-video-games-wallpaper-preview.jpg);    
-}
-h1{
-    padding:30px;
-    text-align:center;
-}
-img{
-    width:300px;  
-}
-section{
+  }
+  main {
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/703/881/310/nintendo-retro-games-super-mario-video-games-wallpaper-preview.jpg);
+  }
+  h1 {
+    padding: 30px;
+    text-align: center;
+  }
+  img {
+    width: 300px;
+  }
+  section {
     display: flex;
     justify-content: center;
     align-items: flex-start;
     padding: 20px;
-}
-figcaption{
-   text-align: center;
-   }
-   iframe{
+  }
+  figcaption {
+    text-align: center;
+  }
+  iframe {
     border: solid 3px black;
   }
-  .mariokart{
-    width: 800px;
-    justify-content: center;
-    margin-top: 60px;
-    padding-right: 450px;
+  .mariokart {
     display: block;
+    border: solid;
   }
-  h2{
+  h2 {
     text-align: center;
     display: block;
-    width: 100vh;
-    border: solid 3px black;
-    ;
-  }
-.iFrame{
-    height: 50vh;
-}
     
+  }
+  .mariokart_section {
+    flex-direction: column;
+  
+    justify-content: space-evenly;
+    align-items: center;
+    height: 60vh;
+  }
+  .iFrame {
+    height: 50vh;
+  }
+  figure {
+    
+  }
+  .personagens_mario {
+      display: flex;
+      align-items: flex-end;
+  
+  }
+  
